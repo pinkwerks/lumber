@@ -1,2 +1,4 @@
 # lumber
-Wood supplies
+Wood supplies for the modern builder.
+
+![image](screenshot.png)
