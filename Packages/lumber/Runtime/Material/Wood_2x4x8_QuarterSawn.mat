@@ -59,6 +59,7 @@ Material:
     - _RingWobble: 1
     - _RingWobbleFreq: 1
     - _Ring_bias: 0.429
+    - _Ring_filter: 1
     - _Ring_freq: 5
     - _Ring_ramp_end: 0
     - _Ring_ramp_start: 0.401
