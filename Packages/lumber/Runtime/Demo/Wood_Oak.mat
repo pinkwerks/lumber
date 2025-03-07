@@ -31,11 +31,14 @@ Material:
     m_Ints: []
     m_Floats:
     - _QueueControl: 0
-    - _Radial_mod: 0
+    - _Radial_mod: 0.267
+    - _Ring_bias: 0.706
+    - _Ring_filter: 1
     - _Ring_freq: 3
     - _Rotation: 1
-    - _Smooth_max: 0.548
-    - _Smooth_min: 0.182
+    - _Smooth_max: 0.413
+    - _Smooth_min: 0.065
+    - _Spot: 0.638
     - _Spot_width: 0.411
     m_Colors:
     - _Base_color: {r: 0.5686275, g: 0.4431373, b: 0.25882354, a: 1}

@@ -39,7 +39,7 @@ Material:
     m_Colors:
     - _Base_color: {r: 0.57254905, g: 0.25490198, b: 0.37647063, a: 1}
     - _Ring_color: {r: 0.36078432, g: 0.18823531, b: 0.25882354, a: 1}
-    - _Ring_wobble_freq: {r: 3, g: 5, b: 5, a: 0}
+    - _Ring_wobble_freq: {r: 1, g: 5, b: 5, a: 0}
     - _Scale: {r: 10, g: 10, b: 10, a: 0}
     - _Spots_freq: {r: 55, g: 55, b: 1, a: 0}
   m_BuildTextureStacks: []

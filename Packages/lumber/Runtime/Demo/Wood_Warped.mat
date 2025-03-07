@@ -34,6 +34,7 @@ Material:
     - _Center_mask: 0.2
     - _Radial_freq: 2.71
     - _Radial_mod: 0.446
+    - _RingOffset: -3.39
     - _Ring_filter: 1
     - _Ring_freq: 13
     - _Rotation: 0
@@ -42,7 +43,7 @@ Material:
     - _Base_color: {r: 0.21176472, g: 0.6156863, b: 0.5686275, a: 1}
     - _Origin: {r: 0.1, g: 0, b: 0, a: 0}
     - _Ring_color: {r: 0.121568635, g: 0.34117648, b: 0.32156864, a: 1}
-    - _Ring_wobble_freq: {r: 3, g: 21, b: 5, a: 0}
+    - _Ring_wobble_freq: {r: 0, g: 21, b: 5, a: 0}
     - _Scale: {r: 1, g: 1, b: 1, a: 0}
     - _Spots_freq: {r: 55, g: 55, b: 55, a: 0}
   m_BuildTextureStacks: []
