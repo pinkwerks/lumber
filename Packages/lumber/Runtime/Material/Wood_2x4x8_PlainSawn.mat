@@ -13,6 +13,9 @@ Material:
   m_ModifiedSerializedProperties: 2
   m_ValidKeywords:
   - _CROSS_SECTION_XYZ
+  - _RADIAL_ENABLE
+  - _RING_ENABLE
+  - _SPOTS_ENABLE
   m_InvalidKeywords:
   - _CROSSSECTION_XYZ
   - _CROSSSECTION_YZ
@@ -32,22 +35,24 @@ Material:
     m_Floats:
     - _Bump: 0
     - _CROSSSECTION: 0
-    - _Center_mask: 1
+    - _Center_mask: 0.01
     - _Edge: 0.139
     - _Edge_A: 0.5
     - _Edge_B: 0
     - _FadeoutSize: 39.3
     - _Fancy: 1
     - _FilterScalar: 1
-    - _Grain_average: 0.707
+    - _Grain_average: 0.5
     - _MaskCenter: 0.13
     - _Mask_center: 1
     - _Period: 1
     - _QueueControl: 0
+    - _RADIAL_ENABLE: 1
+    - _Radial: 1
     - _RadialFreq: 5
     - _RadialMod: 1
     - _Radial_freq: 1.9
-    - _Radial_mod: 0.712
+    - _Radial_mod: 1
     - _RingFreq: 100
     - _RingNoise: 0.01
     - _RingNoiseFreq: 200
@@ -58,39 +63,47 @@ Material:
     - _RingWidth: 0
     - _RingWobble: 1
     - _RingWobbleFreq: 1
-    - _Ring_bias: 0.429
     - _Ring_filter: 1
-    - _Ring_freq: 5
+    - _Ring_freq: 377
+    - _Ring_offset: 0
     - _Ring_ramp_end: 0
     - _Ring_ramp_start: 0.401
+    - _Ring_repeat: 100
+    - _Ring_wobble: 0.28
+    - _Rings: 1
     - _Rotation: 0
     - _Smooth: 0.3
     - _Smoothness: 0.3
     - _Spot: 1
     - _SpotWidth: 0.303
-    - _Spot_width: 0.212
     - _SwapYZ: 1
     - _Switch: 1
     - _W: 61.5
     m_Colors:
     - _Axis: {r: 1, g: 0, b: 0, a: 0}
     - _Base_color: {r: 0.9137255, g: 0.8436374, b: 0.76478827, a: 0}
+    - _Bounds: {r: 1, g: 1, b: 1, a: 0}
     - _Color_A: {r: 0.7058824, g: 0.5254902, b: 0.34117648, a: 1}
     - _Color_B: {r: 0.7058824, g: 0.5254902, b: 0.34117648, a: 1}
     - _Freq: {r: 30, g: 1, b: 1, a: 0}
-    - _Origin: {r: 20, g: 2, b: 0, a: 0}
+    - _Origin: {r: 0, g: 0, b: 0, a: 0}
     - _Orign: {r: -5.07, g: 0, b: 0, a: 0}
     - _RadialFreq: {r: 1, g: 211, b: 0, a: 0}
+    - _Radial_freq: {r: 10, g: 10, b: 10, a: 0}
+    - _Radial_freq_2: {r: 121, g: 0.01, b: 0, a: 0}
     - _RingOrigin2: {r: 0, g: 0, b: 0, a: 0}
     - _RingWobbleFreq: {r: 5, g: 13, b: 8, a: 0}
     - _Ring_color: {r: 0.41099998, g: 0.30596668, b: 0.19865, a: 0}
+    - _Ring_freq_3: {r: 1, g: 100, b: 2, a: 0}
+    - _Ring_offset_3: {r: 0, g: 0, b: 0, a: 0}
     - _Ring_origin: {r: 0.07, g: 0, b: 0, a: 0}
-    - _Ring_wobble_freq: {r: 1, g: 13.1, b: 0.2, a: 0}
+    - _Ring_wobble_freq: {r: 10, g: 13, b: 13, a: 0}
+    - _Ring_wobble_offset: {r: 0.01, g: -3.13, b: -3.69, a: 0}
     - _RotationAxis: {r: 1, g: 0, b: 0, a: 0}
     - _Rotation_axis: {r: 1, g: 1, b: 0, a: 0}
-    - _Scale: {r: 100, g: 100, b: 100, a: 0}
+    - _Scale: {r: 1, g: 1, b: 1, a: 0}
     - _SpotsFreq: {r: 1500, g: 1500, b: 1500, a: 0}
-    - _Spots_freq: {r: 20, g: 20, b: 20, a: 0}
+    - _Spots_freq: {r: 2000, g: 2000, b: 2000, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &5690327783494926675

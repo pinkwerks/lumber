@@ -13,6 +13,9 @@ Material:
   m_ModifiedSerializedProperties: 2
   m_ValidKeywords:
   - _CROSS_SECTION_XYZ
+  - _RADIAL_ENABLE
+  - _RING_ENABLE
+  - _SPOTS_ENABLE
   m_InvalidKeywords:
   - _CROSSSECTION_XYZ
   - _CROSSSECTION_YZ
@@ -32,7 +35,6 @@ Material:
     m_Floats:
     - _Bump: 0
     - _CROSSSECTION: 0
-    - _Center_mask: 1
     - _Edge: 0.139
     - _Edge_A: 0.5
     - _Edge_B: 0
@@ -59,15 +61,14 @@ Material:
     - _RingWobble: 1
     - _RingWobbleFreq: 1
     - _Ring_bias: 0.429
-    - _Ring_freq: 5
+    - _Ring_freq: 377
     - _Ring_ramp_end: 0
     - _Ring_ramp_start: 0.401
-    - _Rotation: 0
+    - _Rotation: 1
     - _Smooth: 0.3
     - _Smoothness: 0.3
     - _Spot: 1
     - _SpotWidth: 0.303
-    - _Spot_width: 0.212
     - _SwapYZ: 1
     - _Switch: 1
     - _W: 61.5
@@ -80,6 +81,7 @@ Material:
     - _Origin: {r: 20, g: 20, b: 0, a: 0}
     - _Orign: {r: -5.07, g: 0, b: 0, a: 0}
     - _RadialFreq: {r: 1, g: 211, b: 0, a: 0}
+    - _Radial_freq: {r: 5, g: 0.01, b: 0, a: 0}
     - _RingOrigin2: {r: 0, g: 0, b: 0, a: 0}
     - _RingWobbleFreq: {r: 5, g: 13, b: 8, a: 0}
     - _Ring_color: {r: 0.41099998, g: 0.30596668, b: 0.19865, a: 0}
@@ -89,7 +91,7 @@ Material:
     - _Rotation_axis: {r: 1, g: 1, b: 0, a: 0}
     - _Scale: {r: 100, g: 100, b: 100, a: 0}
     - _SpotsFreq: {r: 1500, g: 1500, b: 1500, a: 0}
-    - _Spots_freq: {r: 20, g: 20, b: 20, a: 0}
+    - _Spots_freq: {r: 2000, g: 2000, b: 2000, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &5690327783494926675
