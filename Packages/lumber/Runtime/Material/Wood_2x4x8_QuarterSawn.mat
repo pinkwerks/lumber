@@ -64,6 +64,7 @@ Material:
     - _Ring_freq: 377
     - _Ring_ramp_end: 0
     - _Ring_ramp_start: 0.401
+    - _Ring_repeat: 34
     - _Rotation: 1
     - _Smooth: 0.3
     - _Smoothness: 0.3
@@ -75,6 +76,7 @@ Material:
     m_Colors:
     - _Axis: {r: 1, g: 0, b: 0, a: 0}
     - _Base_color: {r: 0.9137255, g: 0.8436374, b: 0.76478827, a: 0}
+    - _Bounds: {r: 0.0381, g: 0.0889, b: 2.4384, a: 0}
     - _Color_A: {r: 0.7058824, g: 0.5254902, b: 0.34117648, a: 1}
     - _Color_B: {r: 0.7058824, g: 0.5254902, b: 0.34117648, a: 1}
     - _Freq: {r: 30, g: 1, b: 1, a: 0}

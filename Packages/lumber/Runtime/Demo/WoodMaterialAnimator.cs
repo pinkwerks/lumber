@@ -6,7 +6,7 @@ public class WoodMaterialAnimator : MonoBehaviour
     [SerializeField] private float _ringOffsetSpeed = 1;
     private Material _mat;
     private int _originHash = Shader.PropertyToID("_Origin");
-    private int _ringOffsetHash = Shader.PropertyToID("_RingOffset");
+    private int _ringOffsetHash = Shader.PropertyToID("_Ring_offset");
 
     // Start is called before the first frame update
     void Start()

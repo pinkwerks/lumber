@@ -15,6 +15,10 @@ public class WoodMaterialSetBounds : MonoBehaviour
     [ContextMenu("Set Bounds")]
     public void SetBounds()
     {
-        GetComponent<Renderer>().sharedMaterial.SetVector(_boundsHash, GetComponent<MeshFilter>().mesh.bounds.size);
+#if UNITY_EDITOR
+        GetComponent<Renderer>().sharedMaterial.SetVector(_boundsHash, GetComponent<MeshFilter>().sharedMesh.bounds.size);
+#else
+        GetComponent<Renderer>().material.SetVector(_boundsHash, GetComponent<MeshFilter>().sharedMesh.bounds.size);
+#endif
     }
 }
