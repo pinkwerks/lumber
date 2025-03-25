@@ -66,9 +66,10 @@ Material:
     - _Ring_freq: 377
     - _Ring_ramp_end: 0
     - _Ring_ramp_start: 0.401
-    - _Ring_repeat: 12
-    - _Ring_wobble: 0
+    - _Ring_repeat: 55
+    - _Ring_wobble: 1
     - _Rings: 1
+    - _Rotation: 1
     - _SPOTS_ENABLE: 1
     - _Smooth: 0.3
     - _Smoothness: 0.3
@@ -80,11 +81,11 @@ Material:
     m_Colors:
     - _Axis: {r: 1, g: 0, b: 0, a: 0}
     - _Base_color: {r: 0.9137255, g: 0.8436374, b: 0.7647882, a: 1}
-    - _Bounds: {r: 0.0381, g: 0.0889, b: 2.4384, a: 0}
+    - _Bounds: {r: 0.0381, g: 0.0381, b: 0.0381, a: 0}
     - _Color_A: {r: 0.7058824, g: 0.5254902, b: 0.34117648, a: 1}
     - _Color_B: {r: 0.7058824, g: 0.5254902, b: 0.34117648, a: 1}
     - _Freq: {r: 30, g: 1, b: 1, a: 0}
-    - _Origin: {r: 0, g: 0, b: 0, a: 0}
+    - _Origin: {r: 1, g: 0, b: 0, a: 0}
     - _Orign: {r: -5.07, g: 0, b: 0, a: 0}
     - _RadialFreq: {r: 1, g: 211, b: 0, a: 0}
     - _Radial_freq: {r: 2, g: 2, b: 2, a: 0}
@@ -96,11 +97,11 @@ Material:
     - _Ring_freq_3: {r: 1, g: 100, b: 2, a: 0}
     - _Ring_offset_3: {r: 0, g: 0, b: 0, a: 0}
     - _Ring_origin: {r: 0.07, g: 0, b: 0, a: 0}
-    - _Ring_wobble_freq: {r: 1, g: 32, b: 1, a: 0}
+    - _Ring_wobble_freq: {r: 1, g: 10, b: 1, a: 0}
     - _Ring_wobble_offset: {r: 0, g: 0, b: 0, a: 0}
     - _RotationAxis: {r: 1, g: 0, b: 0, a: 0}
     - _Rotation_axis: {r: 1, g: 1, b: 0, a: 0}
-    - _Scale: {r: 1, g: 1, b: 1, a: 0}
+    - _Scale: {r: 10, g: 10, b: 1, a: 0}
     - _SpotsFreq: {r: 1500, g: 1500, b: 1500, a: 0}
     - _Spots_freq: {r: 5000, g: 5000, b: 5000, a: 0}
   m_BuildTextureStacks: []

@@ -13,6 +13,9 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _CROSS_SECTION_XYZ
+  - _RADIAL_ENABLE
+  - _RING_ENABLE
+  - _SPOTS_ENABLE
   m_InvalidKeywords:
   - _CROSSSECTION_XYZ
   - _CROSSSECTION_YZ

@@ -47,6 +47,7 @@ Material:
     - _SPOTS_ENABLE: 1
     m_Colors:
     - _Bounds: {r: 1, g: 0.5, b: 1, a: 0}
+    - _Scale: {r: 1, g: 0.5, b: 1, a: 0}
     - _Spots_freq: {r: 21, g: 21, b: 21, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
