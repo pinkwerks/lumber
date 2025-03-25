@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class FollowInputNewSystem : MonoBehaviour
+public class FollowInputPosition : MonoBehaviour
 {
     // Set this to the desired distance from the camera along the Z axis.
     public float distanceFromCamera = 10f;

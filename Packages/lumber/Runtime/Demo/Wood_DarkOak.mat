@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Wood_Oak2
+  m_Name: Wood_DarkOak
   m_Shader: {fileID: -6465566751694194690, guid: 91489f03a1f014e49b573a8a1b17b455, type: 3}
   m_Parent: {fileID: -876546973899608171, guid: 91489f03a1f014e49b573a8a1b17b455, type: 3}
   m_ModifiedSerializedProperties: 0
@@ -33,24 +33,32 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _RADIAL_ENABLE: 0
+    - _RING_ENABLE: 1
     - _Radial_mod: 0.267
     - _Ring_bias: 0.706
+    - _Ring_end: 0.703
     - _Ring_filter: 1
     - _Ring_freq: 3
-    - _Ring_wobble: 1
+    - _Ring_repeat: 320
+    - _Ring_start: 0.096
+    - _Ring_wobble: 0.2
+    - _Ring_wobble_mask: 0
     - _Rotation: 0
     - _SPOTS_ENABLE: 0
-    - _Smooth_max: 1
+    - _Smooth_max: 0.862
     - _Smooth_min: 0.274
     - _Spot: 0.638
+    - _Spot_width: 0.411
+    - _Spots: 1
     m_Colors:
-    - _Base_color: {r: 0.5686275, g: 0.4431373, b: 0.25882354, a: 1}
-    - _Origin: {r: 0, g: 0, b: 0, a: 0}
-    - _Ring_color: {r: 0.21960786, g: 0.16862746, b: 0.09411766, a: 1}
-    - _Ring_wobble_freq: {r: 10, g: 10, b: 1, a: 0}
-    - _Ring_wobble_offset: {r: -1.23, g: 2.51, b: -5.33, a: 0}
-    - _Scale: {r: 100, g: 100, b: 100, a: 0}
-    - _Spots_freq: {r: 1000, g: 1000, b: 1000, a: 0}
+    - _Base_color: {r: 0.30980393, g: 0.19607845, b: 0.09411766, a: 1}
+    - _Origin: {r: 0.1, g: 0.1, b: 0, a: 0}
+    - _Ring_color: {r: 0.18823531, g: 0.14509805, b: 0.07450981, a: 1}
+    - _Ring_wobble_freq: {r: 3, g: 34, b: 1, a: 0}
+    - _Ring_wobble_period: {r: 10, g: 377, b: 1, a: 0}
+    - _Ring_wobble_scale: {r: 0.1, g: 1, b: 1, a: 0}
+    - _Scale: {r: 1, g: 1, b: 1, a: 0}
+    - _Spots_freq: {r: 2000, g: 2000, b: 2000, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &5690327783494926675

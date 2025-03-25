@@ -26,6 +26,7 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _CROSS_SECTION_XZY
+  - _RING_ENABLE
   - _SPOTS_ENABLE
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -124,20 +125,22 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RADIAL_ENABLE: 0
-    - _RING_ENABLE: 0
-    - _Radial: 0
+    - _RING_ENABLE: 1
+    - _Radial: 0.384
     - _ReceiveShadows: 1
     - _RingOffset: 0
     - _Ring_bias: 0.5
+    - _Ring_end: 0.68
     - _Ring_filter: 1
     - _Ring_filter_averge: 0.5
     - _Ring_freq: 100
     - _Ring_offset: 0
-    - _Ring_repeat: 1
+    - _Ring_repeat: 89
+    - _Ring_start: 0
     - _Ring_wobble: 0
     - _Ring_wobble_mask: 0.13
     - _Rings: 1
-    - _Rotation: 0
+    - _Rotation: 1
     - _SPOTS_ENABLE: 1
     - _Smooth_max: 0.4
     - _Smooth_min: 0.3
@@ -145,7 +148,7 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _Spot_width: 0.5
-    - _Spots: 0
+    - _Spots: 0.439
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
@@ -158,13 +161,17 @@ Material:
     - _Bounds: {r: 1, g: 1, b: 1, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Origin: {r: 0, g: 0.11, b: 0, a: 0}
+    - _Origin: {r: 0.37, g: 0, b: 0, a: 0}
     - _Radial_freq: {r: 1, g: 0, b: 0, a: 0}
     - _Radial_freq2: {r: 1, g: 1, b: 0, a: 0}
     - _Radial_offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Radial_period: {r: 1, g: 2, b: 1, a: 0}
     - _Ring_color: {r: 0.682353, g: 0.42352936, b: 0.24705875, a: 1}
     - _Ring_wobble_freq: {r: 1, g: 1, b: 1, a: 0}
+    - _Ring_wobble_freq_scale: {r: 0, g: 0, b: 0, a: 0}
     - _Ring_wobble_offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Ring_wobble_period: {r: 2, g: 2, b: 2, a: 0}
+    - _Ring_wobble_scale: {r: 0, g: 0, b: 0, a: 0}
     - _Rotation_axis: {r: 1, g: 0, b: 0, a: 0}
     - _Scale: {r: 1, g: 1, b: 1, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}

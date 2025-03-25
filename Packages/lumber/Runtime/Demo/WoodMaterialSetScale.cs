@@ -23,11 +23,16 @@ public class WoodMaterialSetScale : MonoBehaviour
     [ContextMenu("Set Bounds")]
     public void SetBounds()
     {
-#if UNITY_EDITOR
-        var size = GetComponent<MeshFilter>().sharedMesh.bounds.size;
-#else
-        var size = GetComponent<MeshFilter>().mesh.bounds.size;
-#endif
+        Vector3 size = Vector3.zero;
+        if (Application.isEditor)
+        {
+            size = GetComponent<MeshFilter>().sharedMesh.bounds.size;
+        }
+        else
+        {
+            size = GetComponent<MeshFilter>().mesh.bounds.size;
+        }
+
         // normalize size based on scale
         if (useLocalScale)
         {
@@ -48,10 +53,14 @@ public class WoodMaterialSetScale : MonoBehaviour
         {
             size = new Vector3(1f / size.x, 1f / size.y, 1f / size.z);
         }
-#if UNITY_EDITOR
-        GetComponent<Renderer>().sharedMaterial.SetVector(parameterName, size);
-#else
-        GetComponent<Renderer>().material.SetVector(parameterName, size);
-#endif
+
+        if (Application.isEditor)
+        {
+            GetComponent<Renderer>().sharedMaterial.SetVector(parameterName, size);
+        }
+        else
+        {
+            GetComponent<Renderer>().material.SetVector(parameterName, size);
+        }
     }
 }

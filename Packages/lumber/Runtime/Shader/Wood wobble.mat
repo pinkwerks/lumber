@@ -50,5 +50,7 @@ Material:
     - _Origin: {r: 1, g: -1, b: 0, a: 0}
     - _Ring_color: {r: 0.29803923, g: 0.29803923, b: 0.29803923, a: 1}
     - _Ring_wobble_freq: {r: 1, g: 89, b: 3, a: 0}
+    - _Ring_wobble_period: {r: 2, g: 200, b: 1, a: 0}
+    - _Ring_wobble_scale: {r: 1, g: 0.4, b: 1, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

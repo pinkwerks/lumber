@@ -28,11 +28,12 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
+    - _QueueControl: 0
     - _RADIAL_ENABLE: 0
     - _SPOTS_ENABLE: 0
     m_Colors:
     - _Bounds: {r: 0.3, g: 1, b: 3, a: 0}
-    - _Scale: {r: 0.3333, g: 1, b: 3, a: 0}
+    - _Scale: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &1960832659748210340
