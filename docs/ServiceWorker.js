@@ -1,9 +1,9 @@
 const cacheName = "Pinkwerks-Lumber demo-0.1.0";
 const contentToCache = [
-    "Build/docs.loader.js",
-    "Build/docs.framework.js.br",
-    "Build/docs.data.br",
-    "Build/docs.wasm.br",
+    "Build/Build.loader.js",
+    "Build/Build.framework.js.br",
+    "Build/Build.data.br",
+    "Build/Build.wasm.br",
     "TemplateData/style.css"
 
 ];
