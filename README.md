@@ -7,3 +7,4 @@ Wood supplies for the modern builder.
 - Prefabs with materials presets for quarter, rift, and plainsawn lumber
 
 ![image](screenshot.png)
+![image](wood-theory.png)

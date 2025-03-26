@@ -13,6 +13,9 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _CROSS_SECTION_XYZ
+  - _RADIAL_ENABLE
+  - _RING_ENABLE
+  - _SPOTS_ENABLE
   m_InvalidKeywords:
   - _CROSSSECTION_XYZ
   - _CROSSSECTION_YZ
@@ -30,6 +33,7 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
+    - _QueueControl: 0
     - _Rotation: 1
     m_Colors:
     - _Base_color: {r: 0.7294118, g: 0.38823533, b: 0.21568629, a: 1}
