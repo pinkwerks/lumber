@@ -29,3 +29,4 @@ Noise2d, noise3d, and cell noise functions from: https://github.com/ashima/webgl
 https://bgolus.medium.com/the-best-darn-grid-shader-yet-727f9278b9d8
 
 [Advanced RenderMan: Creating CGI for Motion PictureDecember 1999](https://dl.acm.org/doi/10.5555/555371)
+For which I re-read and re-dicovered previous work on [Oak](https://larrygritz.com/arman/figs/fig12.10.jpg), hosted graciously by the man himself, [Larry Gritz](https://larrygritz.com/arman/materials.html)
