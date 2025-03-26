@@ -1,10 +1,31 @@
-# lumber
+# Lumber
+
 Wood supplies for the modern builder.
 
+
 ## Features
-- Shader graphs for procedural anti-aliased wood
+- A Unity 6 package containing shader graphs, shader includes, and meshes useful for generating wood.
 - 2x4x8 meshes with 1/16th inch bevels
-- Prefabs with materials presets for quarter, rift, and plainsawn lumber
+- A demo project
 
 ![image](screenshot.png)
+
+## Wood theory
+
+- There is a center to the tree that can be offset.
+- There are rings that orbit center.
+- The rings can noisy wobble away from center
+
 ![image](wood-theory.png)
+
+## Building
+
+When the player for GitHub Pages (Web), In the project settings, you need to enable Decompression Fallback. 
+
+# Acknowledgments and resources
+
+Noise2d, noise3d, and cell noise functions from: https://github.com/ashima/webgl-noise Copyright Ashima Arts and Stefan Gustavson (MIT license)
+
+https://bgolus.medium.com/the-best-darn-grid-shader-yet-727f9278b9d8
+
+[Advanced RenderMan: Creating CGI for Motion PictureDecember 1999](https://dl.acm.org/doi/10.5555/555371)
