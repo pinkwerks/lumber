@@ -2,11 +2,11 @@
 
 Wood supplies for the modern builder.
 
-
 ## Features
 - A Unity 6 package containing shader graphs, shader includes, and meshes useful for generating wood.
 - 2x4x8 meshes with 1/16th inch bevels
 - A demo project
+- A fixation on anti-aliased results
 
 ![image](screenshot.png)
 
